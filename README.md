@@ -44,8 +44,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md). Short version:
 
 - Website: <https://bippsi.com>
 - Legal entity: Big App Studio LLC
-- Contact: admin@bippsi.com
+- Contact: <https://bippsi.com/contact>
 
 Products built on top of this work:
 - [**Agent Initiative**](https://bippsi.com/agent-initiative) — AI compliance certification scanner + platform
-- [**Strategy Ninja**](https://bippsi.com/apps/strategy-ninja), [**License Ninja**](https://bippsi.com/apps/license-ninja), [**Social Ninja**](https://bippsi.com/apps/social-ninja) — SaaS apps on the Bippsi hub

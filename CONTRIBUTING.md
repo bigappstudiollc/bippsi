@@ -61,9 +61,9 @@ No CLA. The licenses themselves handle it.
 ## Not-welcome contributions
 
 - Adding Bippsi branding/promotion to the spec. The spec is owned by Bippsi but written to be implementation-agnostic — "CMS platform X" not "our platform"
-- Security reports. If you've found a security issue in the reference code or a privacy concern in the spec, email admin@bippsi.com instead of opening a public issue
+- Security reports. If you've found a security issue in the reference code or a privacy concern in the spec, use the private contact form at <https://bippsi.com/contact> instead of opening a public issue
 - "Drive-by" dependency additions to reference implementations. Keep them dependency-free
 
 ## Questions
 
-Open a GitHub Discussion (once enabled) or email admin@bippsi.com.
+Open a GitHub Discussion (once enabled) or reach out via <https://bippsi.com/contact>.

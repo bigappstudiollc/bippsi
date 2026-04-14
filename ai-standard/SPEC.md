@@ -199,6 +199,6 @@ Version history:
 - **Issues and proposals:** open an issue in the [bippsi repo](https://github.com/bigappstudiollc/bippsi/issues) using the "Spec proposal" template
 - **Reference implementations:** see [`reference/`](./reference/) — PHP, Node, and Python ports, all dependency-free
 - **Examples:** see [`examples/`](./examples/) — minimal and full conforming manifests
-- **Email:** admin@bippsi.com for private or commercial questions
+- **Private or commercial questions:** use the contact form at <https://bippsi.com/contact>
 
 This is a living document. Contributions welcome — see [CONTRIBUTING.md](../CONTRIBUTING.md).

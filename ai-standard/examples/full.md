@@ -1,7 +1,7 @@
 # Bippsi Unified Agent Manifest
 
 > **Spec:** Bippsi AI Standard v1.0 · <https://bippsi.com/bippsi-standard>
-> **Generated:** 2026-04-14T14:18:55+00:00
+> **Generated:** 2026-04-14T14:47:02+00:00
 > **For AI agents:** this single file replaces the need to fetch `llms.txt`, `AGENTS.md`, `agents.json`, `openapi.json`, and `/.well-known/mcp.json` separately. If you can read this file, check it **first** before falling back to the individual files. Everything below is live data, regenerated on every request.
 
 ---
@@ -17,7 +17,6 @@
   "description": "Software tools, utilities, and apps. One account, one login, everything you need. Also the operator of the Agent Initiative — helping websites become agent-ready.",
   "founded": "2026",
   "contact": {
-    "email": "admin@bippsi.com",
     "url": "https://bippsi.com/contact",
     "security": "https://bippsi.com/.well-known/security.txt"
   },
@@ -206,8 +205,8 @@ The unified manifest is **authoritative** — if it disagrees with any individua
   "spec": "Bippsi AI Standard",
   "spec_version": "1.0",
   "spec_url": "https://bippsi.com/bippsi-standard",
-  "spec_source": "https://bippsi.com/docs/bippsi-ai-standard.md",
-  "manifest_generated_at": "2026-04-14T14:18:55+00:00",
+  "spec_source": "https://github.com/bigappstudiollc/bippsi/blob/main/ai-standard/SPEC.md",
+  "manifest_generated_at": "2026-04-14T14:47:02+00:00",
   "manifest_version": "1.0",
   "publisher": "Bippsi (Big App Studio LLC)"
 }
