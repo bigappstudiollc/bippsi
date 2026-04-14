@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
