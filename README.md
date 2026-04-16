@@ -22,6 +22,14 @@ Includes portable reference implementations in PHP, Node, and Python.
 **Live reference site:** <https://bippsi.com/bippsi-unified.md>
 **Human-friendly explainer:** <https://bippsi.com/bippsi-standard>
 
+### [`ai-lock-protocol/`](./ai-lock-protocol/) — A.I. Lock Protocol
+
+An open protocol for charging AI agents micro-fees (Bips) using HTTP 402 Payment Required. Defines the standardized 402 response format, payment flow via Bippsi's charge API, one-time token verification, and discovery mechanisms.
+
+**Current version:** 1.0-draft (2026-04-15)
+**Spec:** [`ai-lock-protocol/SPEC.md`](./ai-lock-protocol/SPEC.md)
+**Product page:** <https://bippsi.com/ai-lock>
+
 ---
 
 ## Licensing
