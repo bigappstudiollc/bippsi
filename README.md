@@ -1,58 +1,41 @@
 # bippsi
 
-Public home for Bippsi's open specifications, reference implementations, and shared artifacts.
+Public specifications and reference artifacts from Bippsi.
 
-Bippsi is building the agent-native layer of the web. This repo holds the parts of that work that belong in the open — so anyone can cite them, implement them, or propose changes.
+Bippsi is building the agent-native layer of the web. Most of what we build is proprietary; this repository is the small subset of our work that belongs in the open.
 
-Commercial code (the bippsi.com application, customer-specific plugins, internal tooling) lives elsewhere and stays private.
-
-## What's in here
+## What's here
 
 ### [`ai-standard/`](./ai-standard/) — Bippsi AI Standard
 
-A specification for how websites publish agent-discoverable capabilities. Two layers:
+A generic specification for how websites publish agent-discoverable capabilities — a unified manifest at `/bippsi-unified.md` that consolidates what would otherwise be ten separate discovery files (robots.txt, llms.txt, AGENTS.md, openapi.json, `/.well-known/mcp.json`, etc.).
 
-- **Legacy discovery** — the existing individual files (`robots.txt`, `llms.txt`, `AGENTS.md`, `openapi.json`, `/.well-known/mcp.json`, etc.)
-- **Unified manifest** — a single `/bippsi-unified.md` file at the site root that replaces the ten-file discovery hunt
-
-Includes portable reference implementations in PHP, Node, and Python.
+Open for anyone to implement. Reference implementations in PHP, Node, and Python.
 
 **Current version:** v1.0 (2026-04-14)
 **Spec:** [`ai-standard/SPEC.md`](./ai-standard/SPEC.md)
-**Live reference site:** <https://bippsi.com/bippsi-unified.md>
-**Human-friendly explainer:** <https://bippsi.com/bippsi-standard>
-
-### [`ai-lock-protocol/`](./ai-lock-protocol/) — A.I. Lock Protocol
-
-An open protocol for charging AI agents micro-fees (Bips) using HTTP 402 Payment Required. Defines the standardized 402 response format, payment flow via Bippsi's charge API, one-time token verification, and discovery mechanisms.
-
-**Current version:** 1.0-draft (2026-04-15)
-**Spec:** [`ai-lock-protocol/SPEC.md`](./ai-lock-protocol/SPEC.md)
-**Product page:** <https://bippsi.com/ai-lock>
+**Live reference:** <https://bippsi.com/bippsi-unified.md>
 
 ---
 
+## Bippsi's commercial products
+
+Everything else — the agent payment layer, partner integrations, SDKs, training profiles, plugin/connector code, protocol internals — is part of Bippsi's commercial offering and is distributed directly to verified partners, not published publicly.
+
+- **Website:** <https://bippsi.com>
+- **For agents:** <https://bippsi.com/for-agents>
+- **For site owners:** <https://bippsi.com/agent-initiative>
+- **Contact:** <https://bippsi.com/contact>
+
 ## Licensing
 
-Two licenses, applied by file type:
-
-- **Specification text** — [Creative Commons Attribution 4.0](./LICENSE-SPEC). Republish, translate, embed, or build on the spec freely, with attribution to Bippsi.
-- **Reference code** (anything in `reference/` directories) — [MIT](./LICENSE-CODE). Use, fork, modify without restriction.
-
-This matches how CloudEvents, Dapr, and similar open-standard projects split their licensing.
+Specification text in this repository is [Creative Commons Attribution 4.0](./LICENSE-SPEC). Reference code in `reference/` directories is [MIT](./LICENSE-CODE).
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md). Short version:
-- Spec changes → open a GitHub issue using the "Spec proposal" template
-- Reference implementation bugs or new language ports → PR welcome
-- Large changes → discuss in an issue first
+Pull requests and issues welcome on the AI Standard spec and its reference implementations. See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-## About Bippsi
+## About
 
-- Website: <https://bippsi.com>
 - Legal entity: Big App Studio LLC
-- Contact: <https://bippsi.com/contact>
-
-Products built on top of this work:
-- [**Agent Initiative**](https://bippsi.com/agent-initiative) — AI compliance certification scanner + platform
+- Support: <https://bippsi.com/contact>
